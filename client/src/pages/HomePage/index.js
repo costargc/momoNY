@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import logo from '../../assets/logo.svg';
 import "./index.css";
 import Nav from "../../components/Nav/Nav";
+import SideBar from "../../components/SideBar/Sidebar";
 
 class HomePage extends Component {
 
@@ -10,6 +11,7 @@ class HomePage extends Component {
 
       <main className="App">
 
+        <SideBar pageWrapId={"page-wrap"} outerContainerId={"App"} />
         <Nav />
 
         <div className="App">

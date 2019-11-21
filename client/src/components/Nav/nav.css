@@ -1,32 +1,21 @@
     
 /* START START START home page - navbar */
 
-.navbar-nav {
-    text-align: right;
-    flex-direction: row !important;
-}
-
-
 .navbar-custom {
-    /* background-color: rgb(19, 174, 240, 0.1); */
-    /* background-color: rgba(207, 232, 241, 0.8) */
-    background-color: rgb(231, 247, 253, 0.9);
-    width: 100%
+    background-color: rgb(0, 0, 0, 0.0);
 }
 
-.nav-item {
-    /* justify-content: right; */
-    margin-left: 20px;
+.navbar-custom.scrolled {
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
-
-.nav-link {
-    margin-right: 5px;
+.nav-link{
+    margin-right: 70px;
     transition: color .4s ease-out;
-}
+  }
 
-.nav-link:hover {
-    color: rgb(19, 174, 240, 1);
+.nav-link:hover{
+   color: rgb(19, 174, 240, 1);
 }
 
 .nav-link:after {
@@ -36,36 +25,42 @@
     display: block;
     background: rgb(19, 174, 240, 1);
     transition: 300ms;
-}
+  }
 
 .nav-link:hover:after {
     width: 100%;
 }
 
-.navbar-brand {
+.navbar-brand{
     color: white;
     font-size: 60px;
     margin: -20px 0px -20px 0px;
     border: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
+    font-family: 'Lovers Quarrel', cursive;
 }
 
-.navbar-brand:hover {
+.navbar-brand:hover{
     color: rgb(255, 255, 255, 1);
 }
 
-.nav-link {
-    color: rgb(19, 174, 240, 1);
+.nav-link{
+    color: white;
     font-size: 15px;
     text-transform: uppercase;
 }
 
-/* END END END home page - navbar */
+.fa-bars{
+    color: white;
+    transform: scale(1.5);
+}
 
-/* side bar - start */
-#dismiss{
-    display: none;
-  }
+#menu{
+    color: white;   
+    font-size: 15px;
+    margin-left: 10px;
+}
+
 
 /*
   
